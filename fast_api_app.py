@@ -1,4 +1,4 @@
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from fastapi import FastAPI, UploadFile, File
 from PIL import Image
 import numpy as np
