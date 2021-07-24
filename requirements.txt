@@ -1,0 +1,5 @@
+numpy==1.19.5
+keras_nightly==2.5.0.dev2021032900
+fastapi==0.67.0
+keras==2.4.3
+Pillow==8.3.1
