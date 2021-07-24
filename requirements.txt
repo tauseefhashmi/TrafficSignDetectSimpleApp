@@ -7,3 +7,4 @@ uvicorn
 aiofiles
 python-multipart
 jinja2
+tensorflow-cpu
