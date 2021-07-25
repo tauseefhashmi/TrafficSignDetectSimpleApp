@@ -59,7 +59,7 @@ def detect(img):
     detect_list = np.array(image)
     pred = model.predict([detect_list])[0]
     pred = np.argmax(pred)
-    prediction = classes[int(pred)]
+    prediction = classes[int(pred)+1]
     return prediction
 
 @app.post('/detect_sign')
